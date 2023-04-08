@@ -357,7 +357,7 @@ nav {
     margin-bottom: 5vw;
 }
 
-.tag::before {
+#contact .tag::before {
     content: none;
 }
 
@@ -446,7 +446,7 @@ nav {
         margin-bottom: 15vh;
     }
 
-    .tag::before {
+    #contact .tag::before {
         content: none;
     }
 }
@@ -543,7 +543,7 @@ nav {
         margin-bottom: 15vh;
     }
 
-    .tag::before {
+    #contact .tag::before {
         content: none;
     }
 
