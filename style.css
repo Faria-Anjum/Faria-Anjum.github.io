@@ -232,12 +232,20 @@ nav {
     content: ">";
     font-size: 1.5em;
     padding-right: 0.5vw;
+    color: #ffffff;
 }
 
 .tag::before {
     content: "#";
     font-size: 1.5em;
     padding-right: 0.5vw;
+}
+
+.arrow a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(34, 190, 83);
+    text-shadow: 0 0 10px #ffffff;
 }
 
 #top a {
@@ -335,6 +343,10 @@ nav {
 
 .cont img{
     border-radius: 50%;
+}
+
+.cont #linkedin img{
+    border-radius: 0%;
 }
 
 .cont img:hover {
