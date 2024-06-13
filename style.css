@@ -273,7 +273,7 @@ nav {
     margin-bottom: 1.5vw;
     padding: 1.2vw;
     background-color: black;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .about-main div p:hover {
@@ -306,7 +306,7 @@ nav {
     margin-bottom: 1.5vw;
     padding: 1.2vh 1.2vh 5vh 1.2vh;
     background-color: #000000;
-    overflow: scroll;
+    overflow: auto;
 }
 
 #works .heading {
@@ -353,11 +353,11 @@ nav {
 
 .find {
     font-size: 1.2em;
-    padding-top: 10vw;
+    padding-top: 5vw;
     margin-bottom: 5vw;
 }
 
-#contact .tag::before {
+.tag::before {
     content: none;
 }
 
@@ -446,7 +446,7 @@ nav {
         margin-bottom: 15vh;
     }
 
-    #contact .tag::before {
+    .tag::before {
         content: none;
     }
 }
@@ -543,7 +543,7 @@ nav {
         margin-bottom: 15vh;
     }
 
-    #contact .tag::before {
+    .tag::before {
         content: none;
     }
 
