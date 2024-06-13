@@ -555,6 +555,10 @@ nav {
         margin-bottom: 15vh;
     }
 
+    .cont img{
+        height: 50px;
+    }
+
     .tag::before {
         content: none;
     }
