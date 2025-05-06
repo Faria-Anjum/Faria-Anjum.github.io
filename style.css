@@ -109,9 +109,10 @@ nav {
     color: rgb(0, 0, 0);
 }
 
-.box *:hover {
-    text-shadow: 0 0 5px #C8C8C8;
+.box p:hover {
+    text-shadow: 0 0 5px rgb(34, 190, 83);
     transition: 0.1s ease-in-out;
+    color: rgb(34, 190, 83);
 }
 
 .box {
@@ -119,7 +120,6 @@ nav {
     margin: 0vh 20vw;
     margin-bottom: 10vh;
     flex-direction: column;
-    height: 100vh;
 }
 
 #intro {
@@ -245,47 +245,53 @@ nav {
     text-decoration: none;
     text-align: center;
     color: rgb(34, 190, 83);
-    text-shadow: 0 0 10px #ffffff;
+}
+
+.arrow a:hover{
+    color: #e8e8e8;
+    text-shadow: 0 0 2px #ffffff;
 }
 
 #top a {
     text-decoration: none;
     text-align: center;
     color: #e8e8e8;
-    text-shadow: 0 0 20px #ffffff;
+    text-shadow: 0 0 5px #e8e8e8;
 }
 
 #top a:hover {
     color: rgb(34, 190, 83);
+    text-shadow: 0 0 5px rgb(34, 190, 83);
 }
 
 #about {
-    padding: 1vw 5vw 10vw 6vw;
-    margin: 0vh 20vw;
+    padding: 20px;
+    margin-left: 20vw;
+}
+
+.num {
+    padding-bottom: 5vh;
 }
 
 #about .num {
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .about-main {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .about-main div {
     min-height: fit-content;
-    width: 20vw;
-    margin-right: 1.5vw;
-    margin-bottom: 1.5vw;
-    padding: 1.2vw;
+    width: 50vw;
+    margin-right: 1vw;
+    margin-bottom: 5vw;
+    padding: 20px;
     background-color: black;
     overflow: auto;
-}
-
-.about-main div p:hover {
-    color: rgb(34, 190, 83);
+    border-radius: 16px;
 }
 
 .projects {
@@ -295,7 +301,7 @@ nav {
 }
 
 #works {
-    padding: 2vw 0vw 20vw 6vw;
+    padding: 2vw 0vw 10vw 6vw;
     height: fit-content;
 }
 
@@ -303,22 +309,19 @@ nav {
     display: flex;
 }
 
-.proj-div p:hover {
-    color: rgb(34, 190, 83);
-}
-
 .proj-details {
     min-height: fit-content;
-    width: 25vw;
+    width: 70vw;
     margin-right: 1vw;
     margin-bottom: 1.5vw;
-    padding: 1.2vh 1.2vh 5vh 1.2vh;
+    padding: 20px;
     background-color: #000000;
     overflow: auto;
+    border-radius: 16px;
 }
 
 #works .heading {
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 #works img {
@@ -373,8 +376,17 @@ nav {
     content: none;
 }
 
-#cv {
+#cv h2{
     margin-bottom: 20px;
+}
+
+#cv a{
+    color: rgb(34, 190, 83);
+    text-decoration: none;
+}
+
+#cv a:hover{
+    color: whitesmoke
 }
 
 
@@ -414,7 +426,7 @@ nav {
     }
 
     .about-main div {
-        width: 30vw;
+        width: 70vw;
         margin-bottom: 7vw;
         min-height: fit-content;
     }
