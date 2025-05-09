@@ -117,7 +117,7 @@ nav {
 
 .box {
     display: flex;
-    margin: 0vh 20vw;
+    margin: 20vh 20vw;
     margin-bottom: 10vh;
     flex-direction: column;
 }
@@ -190,7 +190,7 @@ nav {
 
 #scroll {
     align-self: flex-start;
-    margin: 40;
+    margin: 20px;
     padding-right: 0vw;
     width: 100%;
     text-align: center;
