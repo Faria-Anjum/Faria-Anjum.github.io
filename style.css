@@ -428,9 +428,14 @@ nav {
     }
 
     .nav-items {
+        display: flex;
         font-size: 3vw;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .nav-items div{
+        font-size: 3vw;
     }
 
     .box {
@@ -519,7 +524,14 @@ nav {
         width: fit-content;
     }
 
+    /* .nav-items {
+        font-size: 3vw;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
+
     .nav-items {
+        display: flex;
         font-size: 3vw;
         flex-direction: row;
         justify-content: space-around;
@@ -540,20 +552,22 @@ nav {
     #scroll {
         align-self: center;
         padding-left: 0vw;
+        margin-left: 0px;
+        /* width: 70vw; */
     }
 
     #about {
-        padding: 0vw 5vw 0vw 8vw;
+        /* padding: 0vw 5vw 0vw 8vw; */
         height: fit-content;
-        margin: 2vw;
+        margin: 0vw;
         margin-bottom: 15vh;
     }
 
     .about-main div{
         height: 25vh;
-        width: 100vw;
+        width: 80vw;
         margin-top: 3vw;
-        padding: 5vw;
+        /* padding: 5vw; */
     }
 
     .about-main div p {
