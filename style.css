@@ -38,6 +38,10 @@ body {
     color: rgba(227, 227, 227, 0.902);
 }
 
+body:hover {
+    cursor:default;
+}
+
 #home {
     display: flex;
     flex-direction: column;
@@ -88,10 +92,11 @@ nav {
 
 }
 
-.nav-items {
+.nav-items div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     font-size: calc(0.4vw + 0.75em);
 }
 
@@ -101,11 +106,14 @@ nav {
     text-decoration: none;
     padding: 2vw;
     width: fit-content;
-    transition: 0.3s;
+    transition: 0.5s;
+}
+
+.nav-items div:hover {
+    background-color: rgb(34, 190, 83);
 }
 
 .nav-items a:hover {
-    background-color: rgb(34, 190, 83);
     color: rgb(0, 0, 0);
 }
 
@@ -120,11 +128,12 @@ nav {
     margin: 20vh 20vw;
     margin-bottom: 10vh;
     flex-direction: column;
+    padding-left: 30px;
 }
 
 #intro {
     display: flex;
-    padding: 0vw 5vw 10vw 6vw;
+    /* padding: 0vw 5vw 10vw 6vw; */
     justify-content: space-around;
     
 }
@@ -190,7 +199,7 @@ nav {
 
 #scroll {
     align-self: flex-start;
-    margin: 20px;
+    margin: 40px;
     padding-right: 0vw;
     width: 100%;
     text-align: center;
@@ -265,7 +274,7 @@ nav {
 }
 
 #about {
-    padding: 20px;
+    /* padding: 20px; */
     margin-left: 20vw;
 }
 
@@ -301,7 +310,8 @@ nav {
 }
 
 #works {
-    padding: 2vw 0vw 10vw 6vw;
+    /* padding: 20px; */
+    /* padding: 2vw 0vw 10vw 6vw; */
     height: fit-content;
 }
 
@@ -320,7 +330,7 @@ nav {
     border-radius: 16px;
 }
 
-#works .heading {
+#works {
     margin-top: 10vh;
 }
 
@@ -378,6 +388,16 @@ nav {
 
 #cv h2{
     margin-bottom: 20px;
+}
+
+#cv h2:hover {
+    margin-bottom: 20px;
+    text-shadow: 0 0 3px #e8e8e8;
+}
+
+#cv p:hover {
+    text-shadow: none;
+    color: rgba(227, 227, 227, 0.902)
 }
 
 #cv a{
